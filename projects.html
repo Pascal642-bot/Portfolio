@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects - Pascal Athanas</title>
+  <meta name="description" content="Explore projects by Johanes Henry Kyaruzi, including blockchain voting system and portfolio" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Pascal Athanas</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="survey.html">Survey</a></li>
+      </ul>
+    </nav>
+  </nav><br><br>
+
+  <button id="theme-toggle">Toggle Dark/Light</button>
+  </header>
+
+  <main>
+    <section id="projects" aria-labelledby="projectsHeading" class="projects-section">
+      <h2 id="projectsHeading">Projects</h2><br><br>
+
+      <article class="project-card">
+        <div class="project-text">
+          <h3>Blockchain Voting System</h3>
+          <p>A secure and transparent voting system built on blockchain technology.</p><br>
+          <button class="toggle-details" aria-expanded="false" aria-controls="project1Details">Show Details</button>
+          <div id="project1Details" class="project-details" hidden>
+            <p>Implemented with Solidity smart contracts and integrated web3 front-end.</p>
+          </div>
+        </div><br>
+        <img src="images/blockchain voting.png" alt="Screenshot of Blockchain Voting System" class="project-image" />
+      </article>
+
+      <article class="project-card">
+        <div class="project-text">
+          <h3>Personal Portfolio Website</h3>
+          <p>My professional portfolio showcasing skills and projects.</p><br>
+          <button class="toggle-details" aria-expanded="false" aria-controls="project2Details">Show Details</button>
+          <div id="project2Details" class="project-details" hidden>
+            <p>Built using HTML5, CSS3, and JavaScript with responsive design.</p>
+          </div>
+        </div><br>
+        <img src="images/portfolioo.jpg" alt="Screenshot of Portfolio Website" class="project-image" />
+      </article>
+
+      <article class="project-card">
+        <div class="project-text">
+          <h3>Instagram UI Clone</h3>
+          <p>Jetpack Compose based UI clone of Instagram for Android.</p><br>
+          <button class="toggle-details" aria-expanded="false" aria-controls="project3Details">Show Details</button>
+          <div id="project3Details" class="project-details" hidden>
+            <p>Includes Stories, Reels, Search, and Profile screens.</p>
+          </div>
+        </div><br>
+        <img src="images/IG CLONE.png" alt="Screenshot of Instagram UI Clone" class="project-image" />
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pascal Athanas</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
